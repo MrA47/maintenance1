@@ -76,7 +76,7 @@
   <p>We'll be back by 00:00 on 9th August.</p>
 
   <script>
-    const message = location.host.replace('www.', '') + " is temporarily unavailable";
+    const message = location.host.replace('www., .info', '') + " is temporarily unavailable";
     document.title = message;
     document.querySelector('meta[name="description"]').setAttribute("content", message);
     document.querySelector('#title').textContent = message + ".";
@@ -84,4 +84,5 @@
 </body>
 
 </html>
+
 
